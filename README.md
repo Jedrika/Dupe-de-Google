@@ -1,2 +1,2 @@
- Dupe-de-Google
+ DupeGoogle
  With HTML and CSS
