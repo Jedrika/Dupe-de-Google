@@ -1,18 +1,63 @@
 body{ 
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
 }
+
+header{
+    /* width - ancho /// height-alto */
+    width: 100%;
+    height: 55px;
+}
+
+header nav{
+    /* Cómo se puede mover el elemento */
+    display:flex;
+    justify-content:flex-end;
+    }
+
+header nav .nav-right-section{
+    list-style:none;
+    width: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+nav .nav-right-section a{
+    color:rgb(21, 21, 21);
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    /* Contiene a la imagen */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    }
+
+nav .nav-right-section .perfil{
+    border-radius: 15px;
+    height: 30px;
+    width: fit-content;
+}
+
 main{
     text-align: center;
     margin-top: 160 px;
 }
 main .main-logo{
-    width: 450 px;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 40px;
 }
 main .main-logo img{
-    height: 140 px;
+    height: 100px;
 }
 main .main-input{
     width: 530px;
@@ -20,7 +65,7 @@ main .main-input{
     margin-bottom: 40px;
 }
 main .main-input-contenedor{
-    border: 2px solid #dfe1e5;
+    border: 1px solid #dfe1e5;
     border-radius: 100px;
     width: 525px;
 }
@@ -34,10 +79,10 @@ main .main-input input{
 main .main-input .search-icon{
     background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
     background-position: center;
-    width: 15px;
-    height: 15px;
+    width: 5px;
+    height: 5px;
     background-size: contain;
-    padding-left: 5%;
+    padding-left: 6%;
     background-repeat: no-repeat;
     margin-right: 120px;
 }
@@ -60,19 +105,18 @@ main .main-input .cam-icon{
     background-repeat: no-repeat;
     padding-right: 5%;
 }
-main .main.button{
-    background-color: #dfe1e5;
+main .main-button{
     width: 550px;
     margin: 0 auto;
 }
-main .main.button div{
+main .main-button div{
     display: inline-block;
 }
-main .main.button button{
+main .main-button button{
     border: 0;
-    height: 40 px;
-    background-color: #f8f9fa;
-    font-size: 14px;
+    height: 30px;
+    background-color: #efeff0;
+    font-size: 12px;
     color: #3c4043;
     border-radius: 4px;
     margin-right: 20px;
@@ -81,8 +125,50 @@ main .main.button button{
 main .main-input-contenedor:hover{
     box-shadow: 0 0 5px #20212447;
 }
-main .main.button:hover{
-    color: #202124;
+main .main-button:hover{
+    color: #717379;
     border: 1px solid #dadce0;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+
+footer{
+    background-color: #f2f2f2 ;
+    font-size: 7pt;
+    margin-top: 100px;
+}
+
+footer .mexico{ 
+    
+}
+
+footer .foot-left{
+    list-style:none;
+    width: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+footer .foot-left a{
+    color:rgb(21, 21, 21);
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+footer .foot-right{
+    list-style:none;
+    width: 250px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+}
+
+footer .foot-right a{
+    color:rgb(21, 21, 21);
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+
